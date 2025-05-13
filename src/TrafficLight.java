@@ -48,6 +48,8 @@ public class TrafficLight {
         System.out.println(trafficLight.getColor());
         TrafficLight newLight = new TrafficLight("red",22.3);
         System.out.println(newLight.getColor());
+        newLight.setColor("purple");
     }
+
 
 }
