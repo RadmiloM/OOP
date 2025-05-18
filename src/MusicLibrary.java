@@ -14,6 +14,6 @@ public class MusicLibrary {
     }
 
     public void remove(Song song) {
-        this.songs.remove(songs);
+        this.songs.remove(song);
     }
 }
