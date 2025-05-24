@@ -1,7 +1,6 @@
 import java.time.LocalTime;
 
 public class Airplane {
-
     private String number;
     private String destination;
     private LocalTime departureTime;
