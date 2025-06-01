@@ -24,6 +24,14 @@ public class Friendship {
         return false;
     }
 
+    public void displayAlLFriends() {
+        for (CartoonCharacter character : this.characters) {
+            System.out.println(character.getName());
+            System.out.println(character.getAge());
+            System.out.println(character.getSpecies());
+        }
+    }
+
     @Override
     public String toString() {
         return "Friendship{" +
@@ -36,9 +44,10 @@ public class Friendship {
         System.out.println(friendship.characters);
         CartoonCharacter picolo = new CartoonCharacter("Picolo", 3, "Alien");
         friendship.add(picolo);
-        System.out.println(friendship.remove(picolo));
+        CartoonCharacter goku = new CartoonCharacter("Goku", 3, "Human");
+        friendship.add(goku);
+        friendship.displayAlLFriends();
+        friendship.add(goku);
         System.out.println(friendship);
-        Friendship other = new Friendship();
-        System.out.println(other);
     }
 }
