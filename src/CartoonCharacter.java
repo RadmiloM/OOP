@@ -37,6 +37,10 @@ public class CartoonCharacter {
         return this.species;
     }
 
+    public void introduce() {
+        System.out.println("name: " + this.name + " " + "age: " + this.age + " " + "species: " + this.species);
+    }
+
     @Override
     public String toString() {
         return "CartoonCharacter{" +
