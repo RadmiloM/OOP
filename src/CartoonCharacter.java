@@ -37,6 +37,18 @@ public class CartoonCharacter {
         return this.species;
     }
 
+    public void run() {
+        System.out.println(this.name + " is running");
+    }
+
+    public void speak() {
+        System.out.println(this.name + " is speaking");
+    }
+
+    public void fight() {
+        System.out.println(this.name + " is fighting");
+    }
+
     public void introduce() {
         System.out.println("name: " + this.name + " " + "age: " + this.age + " " + "species: " + this.species);
     }
