@@ -1,5 +1,5 @@
 public class Employee {
-
+    @First
     private String name;
     private String title;
     private Double salary;
@@ -56,6 +56,5 @@ public class Employee {
         Employee second = new Employee("Economist",12234.3,"Jovan");
         System.out.println(first.calculateSalary());
         first.updateSalary();
-        System.out.println(first);
     }
 }
